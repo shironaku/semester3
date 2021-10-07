@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    tools:context=".DetailFilmActivity">
+
+
+    <ImageView
+        android:id="@+id/imgR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/index" />
+
+    <TextView
+        android:id="@+id/titleF"
+        style="@style/TextAppearance.AppCompat.Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/imgR"
+        android:text="Title" />
+
+    <TextView
+        android:id="@+id/rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_below="@+id/imgR"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/titleF"
+        android:text="8.8" />
+
+    <TextView
+        android:id="@+id/realeaseDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titleF"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="15dp"
+
+        android:text="Tahun Rilis" />
+
+    <TextView
+        android:id="@+id/genre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titleF"
+        android:layout_toRightOf="@id/sparator"
+
+        android:text="Genre :comedy" />
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/sparator"
+    android:text="|"
+    android:layout_below="@id/titleF"
+    android:layout_toRightOf="@id/realeaseDate"
+    android:layout_marginLeft="4dp"
+    android:layout_marginRight="4dp"
+    />
+
+    <TextView
+        android:id="@+id/director"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/realeaseDate"
+        android:layout_marginLeft="10dp"
+        android:text="nama director" />
+
+    <TextView
+        android:id="@+id/deskripsi"
+        style="@style/TextAppearance.AppCompat.Body2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/director"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+
+        android:text="Deskripsi Film" />
+</RelativeLayout>

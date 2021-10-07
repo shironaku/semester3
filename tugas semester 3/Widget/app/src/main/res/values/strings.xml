@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Widget</string>
+    <string-array name="kategori">
+        <item>Novel</item>
+        <item>Komik</item>
+        <item>Ensiklopedia</item>
+        <item>Kamus</item>
+        <item>Dongeng</item>
+        <item>Majalah</item>
+    </string-array>
+</resources>
